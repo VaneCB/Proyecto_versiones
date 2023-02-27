@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de inicio</title>
+    <link href="./css/style.css" rel ="stylesheet" type="text/css"> 
+</head>
+<body>
+    <header class="main-header">
+        <div class="foto">
+        <a href="#"><img src="./img/logo.png" alt="logo"></a>
+        </div>
+    </header>
+    <!-- Cuerpo-->
+    <main class="main">
+
+        <section class="text">
+
+            <h1>Bienvenidos a la página</h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non magna tempus, dignissim eros sed, dapibus urna. Donec nec turpis mauris. Morbi tellus mauris, dignissim nec maximus ac, fringilla nec libero. Quisque auctor lobortis finibus. Phasellus eu cursus lectus. Fusce egestas, magna convallis convallis fermentum, est dolor molestie orci, ut lobortis mi velit vitae tellus. Aliquam erat volutpat. Curabitur a nisl condimentum, pulvinar tortor at, mollis ligula. Donec at rutrum metus. Cras sed diam in nunc blandit dapibus eu et urna. Praesent at erat gravida mauris sollicitudin ultrices. Pellentesque placerat, purus eget vestibulum ornare, nulla nibh accumsan eros, et pellentesque erat urna non quam. </p>
+            
+            <p>Sed laoreet nibh felis, id efficitur neque pellentesque dictum. Morbi placerat nunc at ex condimentum, sed finibus libero tempus. Integer felis lectus, suscipit id tincidunt convallis, elementum ornare lacus. Phasellus et mauris nec sapien varius molestie. Donec scelerisque, velit non porttitor congue, turpis arcu condimentum orci, nec blandit mauris nunc vel justo. Morbi aliquam tellus eu convallis ultrices. Pellentesque rhoncus condimentum augue et vulputate. Maecenas eget tortor fermentum, imperdiet diam at, accumsan massa. In hac habitasse platea dictumst. Donec interdum sapien vestibulum malesuada convallis. </p>
+        
+        </section>
+
+        <section class="form-control">
+            <form class="contact" method="post" action="pagina2.html">
+               <fieldset>
+                <legend>Contacto</legend> 
+                <div class="form-row">
+                    <label for="first_name">Nombre</label>
+                    <input class="form-control" type="text" name="first_name" id="first_name" placeholder="Su nombre propio" required>
+                </div>    
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="email@ejemplo.com">   
+                </div>
+                <div class="form-row">
+                    <label for="comment">Comentario</label>
+                    <textarea class="form-control" name="comment" id="comment" cols="40"
+                    rows="5"><b>Escribe lo que quieras</b></textarea>
+                </div>
+                </fieldset>
+                <div class="form-row-inline">
+                    <input class="form-control" type="checkbox" name="accept" id="accept" required>
+                    <label for="accept">Estoy de acuerdo con la <a href="condiciones.html">politica de privacidad</a>.</label>
+                </div>
+                <button  type="submit" name="submit" class="button">Enviar</button>
+            </form>
+            
+        </section>
+    <footer class="main-footer">
+        <div class ="brands">
+            <img src="./img/fb.png"><a href="#" target="_blank"></a></img> 
+            <img src="./img/twitter.png"><a href="#" target="_blank"></a></img>
+            <img src="./img/linkedin.png"><a href="#" target="_blank"></i></a></img>
+        </div>
+    </footer>
+</body>
+</html>

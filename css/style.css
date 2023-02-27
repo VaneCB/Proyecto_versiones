@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+}
+
+.main-header {
+  background: #001240;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 6rem;
+}
+
+.main-header .foto {
+  height: 6rem;
+}
+
+.main-header .foto img {
+  height: 100%;
+}
+
+.main {
+  margin-top: 6rem;
+}
+
+section.text {
+  margin: 1rem;
+}
+
+.main-footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.main-footer {
+  background: #0f1f4b;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.direction {
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  display: block;
+}
+.contact {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.form-row {
+  margin: auto;
+}
+
+.form-row label {
+  display: block; /*Cada etiqueta la convertimos en bloque para que se coloque siempre arriba*/
+  margin: auto;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.form-row-inline {
+  display: inline-block;
+  margin: auto;
+}
+
+.form-row-inline .form-control {
+  display: inline-block;
+  width: auto;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  font-size: 1rem;
+  padding: 0.5rem 3rem;
+  background-color: green;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #999;
+}
